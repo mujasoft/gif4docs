@@ -6,7 +6,7 @@
 [![Homebrew Tap](https://img.shields.io/badge/homebrew-install-green)](https://github.com/mujasoft/homebrew-tools)
 
 
-Convert video files into **optimized GIFs** using `ffmpeg` — perfect for README demos and lightweight previews.
+Convert video files into **optimized GIFs** using `ffmpeg` which is perfect for README demos and lightweight previews.
 
 > I found myself using this script often, so I made it a standalone tool — something you can drop into your `$PATH` and run whenever you need a clean GIF from a video.
 
