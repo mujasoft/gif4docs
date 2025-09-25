@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+
+set +x
 set -e
 
 REPO_URL="https://github.com/mujasoft/gif4docs.git"
