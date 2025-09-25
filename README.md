@@ -42,7 +42,7 @@ brew install ffmpeg
 ```
 
 ## Installation
-### Option 1: Via Homebrew (can also work on Linux)
+### Option 1: Via Homebrew
 ```bash
 brew tap mujasoft/tools
 brew install gif4docs
@@ -56,6 +56,13 @@ mv gif4docs /usr/local/bin/
 ### Option 3: Add to path
 ```bash
 export PATH="$PATH:/path/to/this/repo"
+```
+
+### Option 4: Install script (linux)
+```bash
+curl -fsSL https://raw.githubusercontent.com/mujasoft/gif4docs/main/installer.sh | bash
+
+# At the moment, I have not yet made this available through "apt-get".
 ```
 
 ## Usage
