@@ -20,9 +20,6 @@ fi
 TMP_DIR=$(mktemp -d)
 git clone --depth 1 "$REPO_URL" "$TMP_DIR"
 
-# Make sure script is executable
-chmod +x "$TMP_DIR/gif4docs.sh"
-
 # Copy to /usr/local/bin
 sudo cp "$TMP_DIR/gif4docs" "$TARGET"
 
